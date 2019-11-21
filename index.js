@@ -1,11 +1,5 @@
 var currentDate = new Date();
 
-let date = currentDate.getDate().toString();
-let month = currentDate.getMonth() + 1;
-let year = currentDate.getFullYear().toString();
-let hours = currentDate.getHours();
-let minutes = currentDate.getMinutes();
-
 console.log('Problem 1:');
 console.log(currentDate.toLocaleDateString('vn', { year: '2-digit', month: '2-digit', day: '2-digit' }).replace(/\//g, '-'));
 console.log(currentDate.toLocaleDateString('vn', { year: '2-digit', month: '2-digit', day: '2-digit' }).replace(/\//g, '-') + ' ' + currentDate.toLocaleTimeString('vn', { hour: 'numeric', minute: 'numeric' }));
