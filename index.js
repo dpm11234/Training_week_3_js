@@ -1,14 +1,14 @@
 var currentDate = new Date();
 
 console.log('Problem 1:');
-console.log(currentDate.toLocaleDateString('vn', { year: '2-digit', month: '2-digit', day: '2-digit' }).replace(/\//g, '-'));
-console.log(currentDate.toLocaleDateString('vn', { year: '2-digit', month: '2-digit', day: '2-digit' }).replace(/\//g, '-') + ' ' + currentDate.toLocaleTimeString('vn', { hour: 'numeric', minute: 'numeric' }));
-console.log(currentDate.toLocaleDateString('vn', { year: '2-digit', month: '2-digit', day: '2-digit' }).replace(/\//g, '-') + ' ' + currentDate.toLocaleTimeString('vn', { hour: 'numeric', minute: 'numeric', second: 'numeric' }));
-console.log(currentDate.toLocaleDateString('vn', { year: '2-digit', month: '2-digit', day: 'numeric' }));
-console.log(currentDate.toLocaleDateString('vn', { year: '2-digit', month: '2-digit', day: '2-digit' }));
+console.log(currentDate.toLocaleDateString('vi', { year: '2-digit', month: '2-digit', day: '2-digit' }).replace(/\//g, '-'));
+console.log(currentDate.toLocaleDateString('vi', { year: '2-digit', month: '2-digit', day: '2-digit' }).replace(/\//g, '-') + ' ' + currentDate.toLocaleTimeString('vi', { hour: 'numeric', minute: 'numeric' }));
+console.log(currentDate.toLocaleDateString('vi', { year: '2-digit', month: '2-digit', day: '2-digit' }).replace(/\//g, '-') + ' ' + currentDate.toLocaleTimeString('vi', { hour: 'numeric', minute: 'numeric', second: 'numeric' }));
+console.log(currentDate.toLocaleDateString('vi', { year: '2-digit', month: '2-digit', day: 'numeric' }));
+console.log(currentDate.toLocaleDateString('vi', { year: '2-digit', month: '2-digit', day: '2-digit' }));
 console.log(currentDate.toLocaleDateString('en', { year: 'numeric', month: 'short', day: '2-digit' }));
 console.log(currentDate.toLocaleDateString('en', { year: 'numeric', month: 'long', day: '2-digit' }));
-console.log(currentDate.toLocaleDateString('vn', { year: '2-digit', month: '2-digit', day: '2-digit' }) + ' ' + currentDate.toLocaleTimeString('en', { hour12: true, hour: 'numeric', minute: 'numeric' }));
+console.log(currentDate.toLocaleDateString('vi', { year: '2-digit', month: '2-digit', day: '2-digit' }) + ' ' + currentDate.toLocaleTimeString('en', { hour12: true, hour: 'numeric', minute: 'numeric' }));
 console.log(currentDate.toLocaleDateString('en', { year: 'numeric', month: 'long', day: '2-digit', weekday: 'long' }));
 console.log(currentDate.toLocaleDateString('en', { year: 'numeric', month: 'long', day: '2-digit', weekday: 'long', hour12: true, hour: 'numeric', minute: 'numeric', second: 'numeric', timeZoneName: 'short' }));
 
